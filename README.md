@@ -10,7 +10,7 @@ This project is a fully responsive login and signup page inspired by Apple’s s
 
 - 📱 Fully responsive design (desktop, tablet, mobile)
 - 🎨 Modern Apple-inspired UI with gradients and background blur effects
-- 🔑 Login and Signup forms
+- 🔑 Login and SignUp forms
 - 👁️ Password visibility toggle with eye icon
 - 🖼️ Branding section with Apple Watch images
 - 📋 Terms & Conditions and Privacy Policy section
@@ -35,9 +35,11 @@ This project is a fully responsive login and signup page inspired by Apple’s s
 ## Preview
 
 Login Page:
+
 ![Login Page Preview](AppleWatchLoginPreview.png)
 
 Signup Page:
+
 ![Signup Page Preview](AppleWatchSignUpPreview.png)
 
 ## License
