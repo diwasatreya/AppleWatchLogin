@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,38 @@
     <meta name="keywords" content="Apple Watch, Login, Apple, Smartwatch">
     <meta name="author" content="Your Name">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
+
 <body class="bg-black flex justify-center items-center">
-    
+
     <!-- Background Blur Effects -->
-    <div class="bg-white absolute rounded-full w-40 h-[8rem] top-0 -left-20 blur-[10rem] md:inset-y-20 md:left-[50%] md:blur-[11rem] md:h-[10rem] md:w-50"></div>
-    <div class="bg-white hidden md:block absolute rounded-full w-40 h-[8rem] top-0 -left-20 blur-[10rem] md:inset-y-20 md:top-[20%] md:blur-[13rem] md:h-[10rem] md:w-50"></div>
-    
+    <div
+        class="bg-white absolute rounded-full w-40 h-[8rem] top-0 -left-20 blur-[10rem] md:inset-y-20 md:left-[50%] md:blur-[11rem] md:h-[10rem] md:w-50">
+    </div>
+    <div
+        class="bg-white hidden md:block absolute rounded-full w-40 h-[8rem] top-0 -left-20 blur-[10rem] md:inset-y-20 md:top-[20%] md:blur-[13rem] md:h-[10rem] md:w-50">
+    </div>
+
     <!-- Main Container -->
-    <div class="w-[90%] h-[95%] max-w-100 flex flex-col justify-evenly md:flex-row md:h-auto md:max-w-[80%] md:items-center lg:max-w-[90%]">
+    <div
+        class="w-[90%] h-[95%] max-w-100 flex flex-col justify-evenly md:flex-row md:h-auto md:max-w-[80%] md:items-center lg:max-w-[90%]">
 
         <!-- Header Section -->
         <div class="h-[20%] flex justify-center items-center flex-wrap md:flex-col md:h-full md:p-4">
-            <h1 class="headt font-black text-4xl font-bold bg-radial from-[#FFFFFF] to-[#6B6767] text-wrap bg-clip-text text-transparent text-center -z-30 [word-spacing:3rem] leading-[5rem] md:text-7xl md:[word-spacing:0.5rem] md:my-4">
+            <h1
+                class="headt font-black text-4xl font-bold bg-radial from-[#FFFFFF] to-[#6B6767] text-wrap bg-clip-text text-transparent text-center -z-30 [word-spacing:3rem] leading-[5rem] md:text-7xl md:[word-spacing:0.5rem] md:my-4">
                 Apple Watch
             </h1>
-            <img src="./assets/w.png" class="scale-20 absolute md:static md:scale-100 md:max-w-54 -z-20 md:my-6" alt="Apple Watch">
-            <img src="./assets/i4.png" class="scale-20 absolute hidden md:block md:scale-100 md:max-w-30 translate-x-30 translate-y-15 -z-30 md:my-6" alt="Apple Watch">
+            <img src="./assets/w.png" class="scale-20 absolute md:static md:scale-100 md:max-w-54 -z-20 md:my-6"
+                alt="Apple Watch">
+            <img src="./assets/i4.png"
+                class="scale-20 absolute hidden md:block md:scale-100 md:max-w-30 translate-x-30 translate-y-15 -z-30 md:my-6"
+                alt="Apple Watch">
         </div>
 
         <!-- Login Form Section -->
@@ -45,9 +58,11 @@
                 <!-- Background Images -->
                 <img class="absolute left-0 -z-50 md:hidden" src="./assets/i1.png" alt="Background Image">
                 <img class="absolute right-0 top-25 -z-50 md:hidden" src="./assets/i5.png" alt="Background Image">
-                <img class="absolute left-0 hidden md:block -z-50 top-[50%] w-18" src="./assets/i1.png" alt="Background Image">
-                <img class="absolute hidden md:block top-15 right-0 -z-50 w-18" src="./assets/i5.png" alt="Background Image">
-                
+                <img class="absolute left-0 hidden md:block -z-50 top-[50%] w-18" src="./assets/i1.png"
+                    alt="Background Image">
+                <img class="absolute hidden md:block top-15 right-0 -z-50 w-18" src="./assets/i5.png"
+                    alt="Background Image">
+
                 <!-- Welcome Message -->
                 <div class="my-6">
                     <h3 class="text-xl text-wrap text-center shrink font-semibold">Welcome Back User</h3>
@@ -58,7 +73,9 @@
                             <div>
                                 <label for="email">
                                     <div class="mb-1">Email Address</div>
-                                    <input type="email" name="email" id="email" placeholder="johndoe@icloud.com" class="font-sans bg-white py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest rounded-sm" required>
+                                    <input type="email" name="email" id="email" placeholder="johndoe@icloud.com"
+                                        class="font-sans bg-white py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest rounded-sm"
+                                        required>
                                 </label>
                             </div>
 
@@ -66,8 +83,11 @@
                                 <label for="password">
                                     <div class="mb-1">Password</div>
                                     <div class="w-full flex bg-white rounded-sm items-center justify-between">
-                                        <input type="password" name="password" id="password" placeholder="**********" class="font-sans py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest" required>
-                                        <i class="ri-eye-fill text-black p-2 pr-3 cursor-pointer" id="togglePassword"></i>
+                                        <input type="password" name="password" id="password" placeholder="**********"
+                                            class="font-sans py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest"
+                                            required>
+                                        <i class="ri-eye-fill text-black p-2 pr-3 cursor-pointer"
+                                            id="togglePassword"></i>
                                     </div>
                                 </label>
                             </div>
@@ -80,18 +100,23 @@
 
                             <!-- Submit Button -->
                             <div class="mt-4">
-                                <button type="submit" class="cursor-pointer text-center flex items-center justify-center bg-gradient-to-r from-[10%] from-white to-[70%] to-[#999999] p-2 w-full py-3 text-black rounded-sm font-semibold md:my-5">Login Now</button>
+                                <button type="submit"
+                                    class="cursor-pointer text-center flex items-center justify-center bg-gradient-to-r from-[10%] from-white to-[70%] to-[#999999] p-2 w-full py-3 text-black rounded-sm font-semibold md:my-5">Login
+                                    Now</button>
                             </div>
 
                             <!-- Terms and Conditions -->
                             <div class="flex justify-between flex-wrap mt-2">
-                                <div class="text-xs text-wrap">By continuing, you agree to Apple<span class="font-sans">'</span>s
-                                    <strong>Terms of Service</strong> and <strong>Privacy Policy</strong></div>
+                                <div class="text-xs text-wrap">By continuing, you agree to Apple<span
+                                        class="font-sans">'</span>s
+                                    <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>
+                                </div>
                             </div>
 
                             <!-- Create Account Link -->
-                            <div class="text-center mt-4">  
-                                <div>New to Apple? <strong class="underline cursor-pointer"> <a href="./signup.html">Create Account</a> </strong></div>
+                            <div class="text-center mt-4">
+                                <div>New to Apple? <strong class="underline cursor-pointer"> <a
+                                            href="./signup.html">Create Account</a> </strong></div>
                             </div>
 
                         </form>
@@ -107,4 +132,5 @@
 
 </body>
 <script src="/script.js"></script>
+
 </html>

@@ -1,33 +1,32 @@
-
 @font-face {
-    font-family: 'CodeNext-Trial';
-    src: url();
+  font-family: 'CodeNext-Trial';
+  src: url();
 }
 
 @font-face {
-    font-family: 'CodeNext-Trial';
-    src: url('assets/fonts/CodeNext-Trial-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-
-  @font-face {
-    font-family: 'CodeNext-Trial-SemiBold';
-    src: url('assets/fonts/CodeNext-Trial-SemiBold.woff') format('woff');
-    font-weight:bolder;
-    font-style: normal;
-    font-display: swap;
-  }
-
-html, body {
-    font-family: 'CodeNext-Trial', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-
+  font-family: 'CodeNext-Trial';
+  src: url('assets/fonts/CodeNext-Trial-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
+
+@font-face {
+  font-family: 'CodeNext-Trial-SemiBold';
+  src: url('assets/fonts/CodeNext-Trial-SemiBold.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: 'CodeNext-Trial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+}
