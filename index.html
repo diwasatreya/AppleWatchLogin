@@ -58,7 +58,7 @@
                             <div>
                                 <label for="email">
                                     <div class="mb-1">Email Address</div>
-                                    <input type="email" name="email" id="email" placeholder="johndoe@icloud.com" class="font-sans bg-white py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest rounded-sm">
+                                    <input type="email" name="email" id="email" placeholder="johndoe@icloud.com" class="font-sans bg-white py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest rounded-sm" required>
                                 </label>
                             </div>
 
@@ -66,8 +66,8 @@
                                 <label for="password">
                                     <div class="mb-1">Password</div>
                                     <div class="w-full flex bg-white rounded-sm items-center justify-between">
-                                        <input type="password" name="password" id="password" placeholder="**********" class="font-sans py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest">
-                                        <i class="ri-eye-fill text-black p-2 pr-3 cursor-pointer"></i>
+                                        <input type="password" name="password" id="password" placeholder="**********" class="font-sans py-2 pl-3 w-full placeholder-black outline-0 text-black tracking-widest" required>
+                                        <i class="ri-eye-fill text-black p-2 pr-3 cursor-pointer" id="togglePassword"></i>
                                     </div>
                                 </label>
                             </div>
@@ -91,7 +91,7 @@
 
                             <!-- Create Account Link -->
                             <div class="text-center mt-4">  
-                                <div>New to Apple? <strong class="underline cursor-pointer"> Create Account </strong></div>
+                                <div>New to Apple? <strong class="underline cursor-pointer"> <a href="./signup.html">Create Account</a> </strong></div>
                             </div>
 
                         </form>
